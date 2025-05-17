@@ -1,0 +1,14 @@
+#about .badge {
+  position: absolute;
+  width: auto;
+  transform-origin: 0 100px; /* distance du centre */
+}
+
+#about .badge:nth-child(2) { transform: rotate(0deg) translate(0, -100px) rotate(0deg); }
+#about .badge:nth-child(3) { transform: rotate(45deg) translate(0, -100px) rotate(-45deg); }
+#about .badge:nth-child(4) { transform: rotate(90deg) translate(0, -100px) rotate(-90deg); }
+#about .badge:nth-child(5) { transform: rotate(135deg) translate(0, -100px) rotate(-135deg); }
+#about .badge:nth-child(6) { transform: rotate(180deg) translate(0, -100px) rotate(-180deg); }
+#about .badge:nth-child(7) { transform: rotate(225deg) translate(0, -100px) rotate(-225deg); }
+#about .badge:nth-child(8) { transform: rotate(270deg) translate(0, -100px) rotate(-270deg); }
+#about .badge:nth-child(9) { transform: rotate(315deg) translate(0, -100px) rotate(-315deg); }
